@@ -1,0 +1,28 @@
+{
+    "name": "nicklasos/metric-scripts",
+    "description": "Skeleton for scripting language lib",
+    "authors": [
+        {
+            "name": "Nicklasos",
+            "email": "nicklasos@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MetricScripts\\": "src"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MetricScripts\\Tests\\": "tests"
+        }
+    },
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    }
+}
